@@ -1,11 +1,11 @@
-class Mobil {
+class Motor {
 constructor(merk, warna) {
 this.merk = merk;
 this.warna = warna;
 }
 info() {
-return `Mobil ini adalah ${this.merk} berwarna ${this.warna}.`;
+return `Motor ini adalah ${this.merk} berwarna ${this.warna}.`;
 }
 }
-const avanza = new Mobil("Toyota Avanza", "Hitam");
-console.log(avanza.info());
+const Harley = new Motor("Harley Davidson", "Hijau Army");
+console.log(Harley.info());
